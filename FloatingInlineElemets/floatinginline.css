@@ -1,0 +1,100 @@
+h1, h2, h3, h4, p, ul, li, address, blockquote {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background: #542733;
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 720px;
+	margin: 0 auto;
+	font: 90%/1.6 Arial, Helvetica, sans-serif;
+	background: #fff;
+	padding: 25px;
+}
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+article {
+	clear: both;
+}
+header h1 {
+	font-size: 3em;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	font-weight: normal;
+	line-height: 1.2;
+}
+article h1, article h2, article h3, article h4 {
+	font-family: Georgia, Times, serif;
+	font-weight: normal;
+}
+article h1{
+	font-size: 2.8em;
+	margin: 1em 0 .6em;
+}
+article h2 {
+	font-size: 1.8em;
+	margin: 1em 0 .4em;
+}
+article h3 {
+	font-size: 1.4em;
+	margin: 1.2em 0 .2em;
+}
+article p {
+	margin-bottom: 1em;
+}
+
+.textWrap img {
+    border: 1px solid #333;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+.textWrap h3 {
+    clear: both;
+}
+.dropcap p:first-of-type:first-letter {
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    margin: 0 5px 0 0;
+    line-height: .7;
+
+}
+
+.complex {
+	border: 1px solid #333;
+	padding: 1em;
+	background: #d4beaa;
+	font-size: 110%;
+    overflow: hidden;
+    
+}
+.complex img {
+    float: left;
+    margin-right: 1em;
+    
+}
+.more {
+    float: left;
+    margin: 0;
+    margin-left: 14em;
+    line-height: 1.6em;
+    padding: 0 5px;
+    background: #3b2f24;
+    color: white;
+}
+.price {
+    float: right;
+    margin: 0;
+    font-size: 1.6ems;
+    font-weight: bold;
+    margin-top: -3em;
+}
